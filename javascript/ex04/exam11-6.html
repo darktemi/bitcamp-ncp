@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex04</title>
+</head>
+<body>
+<h1>생성자6 - 생성자 상속과 prototype 연결</h1>
+<script>
+"use strict"
+
+function Engine(value, cylinder, cc) {
+  // object.call(this);
+  this.value = value;
+  this.cylinder = cylinder;
+  this.cc = cc;
+  this.hell = function() {
+    console.log("비트캠프 엔진!");
+  }
+}
+
+Engine.prototype.print = function() {
+  console.log("밸브: " + this.valve);
+  console.log("실린더: " + this.cylinder);
+  console.log("CC: " + this.cc);
+}
+
+let e1 = new Engine(16, 4, 2000);
+e1.print();
+// e1.print()
+// --> Engine.prototype.print()
+
+Object.prototype.test = function() {
+  console.log("Object.test() 호출됨!");
+}
+
+let obj = new Object();
+console.log(obj);
+console.log("-----------------------");
+
+
+
+
+e1.info();
+
+e1.print();
+
+
+
+console.log(e1.toString());
+
+
+</script>
+</body>
+</html>
