@@ -9,6 +9,7 @@
     console.log("ready() 호출됨! 111");
   });
 
+  // 예전 방식이므로 사용을 권장하지 않는다.
   $(document).ready(() => {
     console.log("ready() 호출됨! 222");
   });
@@ -20,6 +21,9 @@
   window.onload = function() {
     console.log("load 이벤트 발생!");
   };
+
+  // ready()와 onload()로 등록한 함수는 jQuery의 버전에 따라 실행 순서가 다르다.
+  // 따라서 둘 중 한 가지 함수만으로 작성해야 한다.
 </script>
 </head>
 <body>
