@@ -2,7 +2,7 @@ package com.eomcs.oop.ex02.domain;
 
 public class Score2 {
 
-  public String name; 
+  public String name;
   public int kor;
   public int eng;
   public int math;

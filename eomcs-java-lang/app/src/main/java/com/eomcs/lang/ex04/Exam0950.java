@@ -1,7 +1,7 @@
 package com.eomcs.lang.ex04;
 
-//# 형변환 - 명시적 형변환이 불가능한 경우 
-// 
+//# 형변환 - 명시적 형변환이 불가능한 경우
+//
 public class Exam0950 {
   public static void main(String[] args) {
 

@@ -6,7 +6,7 @@ public class Exam0910 {
   public static void main(String[] args) {
 
     byte b = 100; // 1byte
-    short v1 = b; // 1byte ==> 2byte 
+    short v1 = b; // 1byte ==> 2byte
 
     short s = 100; // 2byte(-32768 ~ 32767)
     int v2 = s; // 2byte ==> 4byte

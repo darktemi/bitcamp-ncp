@@ -31,7 +31,7 @@ public class Exam0421 {
 
   static void compute(int[] moneys, float[] totals, float interest) {
     for (int i = 0; i < moneys.length; i++) {
-      totals[i] = moneys[i] + (moneys[i] * interest);
+      totals[i] = moneys[i] + (moneys[i] * interest); // 100.0 + (100.0 * 0.0089f)
     }
   }
 

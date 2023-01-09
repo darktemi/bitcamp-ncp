@@ -8,6 +8,9 @@ public class Exam0350 {
     System.out.println(12.375f);
     System.out.println(-12.375f);
     System.out.println(12.375);
+    System.out.println(5678.37f);
+    System.out.println(11.23356f);
+    System.out.println(11.23356 + 75678.37); // 예상 75689.60356
   }
 }
 

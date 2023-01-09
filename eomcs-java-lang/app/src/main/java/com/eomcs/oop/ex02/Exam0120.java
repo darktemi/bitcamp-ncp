@@ -43,11 +43,12 @@ public class Exam0120 {
     printScore(s3);
   }
 
+  // 매서드 호출 시 인스턴스 주소가 담긴 래퍼런스를 파라미터로 줌
   static void printScore(Score s) {
     s.sum = s.kor + s.eng + s.math;
     s.aver = (float) s.sum / 3;
 
-    System.out.printf("%s: %d, %d, %d, %d, %.1f\n", 
+    System.out.printf("%s: %d, %d, %d, %d, %.1f\n",
         s.name, s.kor, s.eng, s.math, s.sum, s.aver);
   }
 }
