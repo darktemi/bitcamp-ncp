@@ -1,4 +1,4 @@
-package bitcamp.myapp;
+package bitcamp.util;
 
 import java.util.Scanner;
 

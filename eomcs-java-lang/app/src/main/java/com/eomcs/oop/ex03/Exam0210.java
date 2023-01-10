@@ -3,6 +3,9 @@
 package com.eomcs.oop.ex03;
 
 public class Exam0210 {
+
+
+
   static class A {
     //1) 클래스 메서드 = static 메서드
     //   => static 붙은 메서드이다.
@@ -19,6 +22,10 @@ public class Exam0210 {
     }
   }
 
+
+
+
+
   public static void main(String[] args) {
 
     // 클래스 메서드 호출
@@ -26,7 +33,7 @@ public class Exam0210 {
     A.m1(); // OK!
 
     // => 인스턴스 메서드는 클래스 이름으로 호출할 수 없다.
-    //    A.m2(); // 컴파일 오류!
+    //        A.m2(); // 컴파일 오류!
 
     A obj1 = new A();
 
@@ -42,6 +49,13 @@ public class Exam0210 {
   }
 }
 
+
+
+
+
+
+
+
 // 결론!
 // 클래스 메서드(=스태틱 메서드)
 //   => 인스턴스 변수를 사용하지 않을 경우 클래스 메서드로 선언하라!
@@ -50,7 +64,7 @@ public class Exam0210 {
 //
 // 실무
 // => 일단 인스턴스 메서드로 무조건 만들라!
-// => 인스턴스 변수를 완전히 사용하지 않음을 확신하면 
+// => 인스턴스 변수를 완전히 사용하지 않음을 확신하면
 //    그 때 클래스 메서드로 전환하라!
 //
 

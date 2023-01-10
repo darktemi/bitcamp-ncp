@@ -1,15 +1,15 @@
-package bitcamp.myapp;
+package bitcamp.myapp.vo;
 
 // 회원 데이터를 담을 메모리를 설계한다.
 public class Member {
-  private int no; // 필드
+  private int no;
   private String name;
   private String tel;
   private String postNo;
   private String basicAddress;
   private String detailAddress;
   private boolean working;
-  private char gender;
+  private  char gender;
   private byte level;
   private String createdDate;
 
