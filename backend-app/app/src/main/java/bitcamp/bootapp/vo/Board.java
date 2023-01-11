@@ -1,4 +1,4 @@
-package bitcamp.bootapp;
+package bitcamp.bootapp.vo;
 
 public class Board {
   private int no;
@@ -7,6 +7,7 @@ public class Board {
   private String password;
   private String createdDate;
   private int viewCount;
+
   public int getNo() {
     return no;
   }
